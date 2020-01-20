@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta charset="utf-8">
     <title>revolut</title>
   </head>
@@ -15,16 +16,25 @@
         <li><a href="">BUSINESS</a></li>
       </ul>
       <ul class="header-left">
-        <li><a href="">Tariffazione</a></li>
-        <li><a href="">Conti</a></li>
-        <li><a href="">Prodotti</a></li>
-        <li><a href="">Azienda</a></li>
-        <li><a href="">Aiuto</a></li>
-        <li><a href="">IT</a><i class="fas fa-chevron-down arrow"></i></li>
+        <li><a class="" href="">Tariffazione</a></li>
+        <li class="parent-dropdown">
+          <a class="conti" href="">Conti</a>
+          <ul class="dropdown conti">
+            <li><a href="">Standard</a></li>
+            <li><a href="">Premium</a></li>
+            <li><a href="">Metal</a></li>
+          </ul>
+        </li>
+        <li><a class="" href="">Prodotti</a></li>
+        <li><a class="" href="">Azienda</a></li>
+        <li><a class="" href="">Aiuto</a></li>
+        <li><a class="" href="">IT</a><i class="fas fa-chevron-down arrow"></i></li>
         <li><a class="bottone-app" href="">Scarica l'app</a></li>
       </ul>
-
     </header>
+
+
+
 
 
 
