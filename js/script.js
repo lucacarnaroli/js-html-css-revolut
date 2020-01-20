@@ -1,14 +1,14 @@
 $(document).ready(
   function() {
-    $('.conti').mouseenter(
+    $('parent-dropdown').mouseenter(
       function () {
-        $('.dropdown').show();
+        $(this).next('.dropdown').addClass('.active');
       }
     )
-    $('.conti').mouseleave(
-      function (){
-      $('.dropdown').hide();
-    }
+    // $('.conti').click(
+    //   function (){
+    //   $('.dropdown').hide();
+    // }
   );
 }
 );

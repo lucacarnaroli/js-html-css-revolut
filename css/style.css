@@ -57,10 +57,13 @@ a:hover {
   text-align: center;
   box-shadow: 1px 1px 4px rgba(179, 178, 178);
   position: absolute;
-  right: -9px;
+  right: -12px;
   top:80px;
 }
 .dropdown li {
   line-height: 10px;
   display: inline-block;
+}
+.dropdown.active {
+  display: block;
 }
